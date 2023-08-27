@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(126, 128, 129);
+}
+
+.container{
+    margin-top: 20px;
+    display: flex ;
+    width: 1188px;
+    height: 757px;
+    background-color: white;
+ 
+}
+.aside{
+    width: 178px;
+    height: 757px;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.buttom{
+    width: 158px;
+    height: 127px;
+    gap: 10px;
+    /* background-color: red; */
+    margin-top: 512px;
+}
+.buttom h1{
+    width: 53px;
+    height: auto;
+}
+h1 sub{
+   font-size: 20px;
+   color: rgb(207, 201, 201);
+}
+
+.frame{
+    width: 174px;
+    height: 69px;
+    display: flex;
+}
+.s1{
+    margin-left: -30px;
+}
+.g1{
+    margin-left: -30px;
+}
+
+.message-frame{
+    width: 826px;
+    height: 757px;
+    padding: 10px;
+    gap: 10px;
+
+}
+.top{
+    display: flex;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    margin-left: 470px;
+    margin-top: 20px;
+    color: rgb(202, 199, 199);
+}
+.box{
+    display: block;
+    width: 800px;
+    height: 680px;
+    border: 1px solid rgb(152, 144, 144);
+}
+.aside-right{
+    width: 184px;
+    height: 757px;
+    padding: 10px;
+    gap: 10px;
+}
+.right{
+    width: 164px;
+    height: 674px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(50,193,255);
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.send{
+    color: white;
+    font-weight: 700;
+    font-size:25px ;
+    background-color: transparent;
+    margin-top: 300px;
+    text-align: center;
+}
+button{
+    width: 164px;
+    height: 53px;
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size:25px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
